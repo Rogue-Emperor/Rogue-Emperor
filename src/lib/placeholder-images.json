@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-ceo",
-      "description": "A low-angle, high-contrast black-and-white portrait of a CEO integrated with architectural silhouettes of skyscrapers.",
-      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZW8lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzEyNTIzMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "ceo portrait"
+      "description": "A man looking out over a calm sea with a cloudy sky at dusk.",
+      "imageUrl": "https://images.unsplash.com/photo-1605057132943-2de75a8a6912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBiYWNrJTIwb2NlYW58ZW58MHx8fHwxNzcxMzM4NzU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man ocean"
     },
     {
       "id": "sector-aerospace",
