@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-ceo",
+      "description": "A low-angle, high-contrast black-and-white portrait of a CEO integrated with architectural silhouettes of skyscrapers.",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZW8lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzEyNTIzMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceo portrait"
+    },
+    {
+      "id": "sector-aerospace",
+      "description": "A rocket launching into space, representing the aerospace sector.",
+      "imageUrl": "https://images.unsplash.com/photo-1614642240262-a452c2c11724?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb2NrZXQlMjBsYXVuY2h8ZW58MHx8fHwxNzcxMjUyODc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rocket launch"
+    },
+    {
+      "id": "sector-ai",
+      "description": "An intricate, glowing circuit board, representing artificial intelligence.",
+      "imageUrl": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaXJjdWl0JTIwYm9hcmR8ZW58MHx8fHwxNzcxMjE5NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "circuit board"
+    },
+    {
+      "id": "sector-energy",
+      "description": "Wind turbines against a sunset, representing sustainable energy.",
+      "imageUrl": "https://images.unsplash.com/photo-1466629437334-b4f6603563c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3aW5kJTIwdHVyYmluZXxlbnwwfHx8fDE3NzEzMTU1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wind turbine"
+    },
+    {
+      "id": "sector-biotech",
+      "description": "A scientist looking at a DNA helix structure, representing biotechnology.",
+      "imageUrl": "https://images.unsplash.com/photo-1738944910306-14cd13a9cc38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkbmElMjBzY2llbmNlfGVufDB8fHx8MTc3MTMwODM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dna science"
+    }
+  ]
 }
