@@ -1,15 +1,9 @@
-
 'use client';
 
-import Image from 'next/image';
-import placeholderData from '@/lib/placeholder-images.json';
 import { cn } from '@/lib/utils';
 import { useEffect, useState } from 'react';
 
 export function Hero() {
-  const heroImage = placeholderData.placeholderImages.find(
-    p => p.id === 'hero-ceo'
-  );
   const [isRevealed, setIsRevealed] = useState(false);
 
   useEffect(() => {
@@ -19,18 +13,6 @@ export function Hero() {
 
   return (
     <section className="relative h-screen w-full overflow-hidden bg-[#1A1A1B]">
-      {/* Background Image */}
-      {heroImage && (
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          priority
-          className="object-cover opacity-80 blur-md scale-105"
-          sizes="100vw"
-        />
-      )}
-
       {/* Geometrical Background Effects */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
         {/* Large faint circle */}
