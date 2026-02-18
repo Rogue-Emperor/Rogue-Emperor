@@ -33,11 +33,11 @@ export function Hero() {
           {/* Main Title with Depth Shadow */}
           <h1
             className={cn(
-              'font-headline text-[15vw] md:text-[11vw] leading-none font-black tracking-tighter text-primary transition-all duration-1000 ease-out select-none drop-shadow-[0_10px_10px_rgba(0,0,0,0.8)]',
+              'font-headline text-[12vw] md:text-[9vw] leading-none font-black tracking-tighter text-primary transition-all duration-1000 ease-out select-none drop-shadow-[0_10px_10px_rgba(0,0,0,0.8)]',
               isRevealed ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
             )}
           >
-            PRAGYAN DEV
+            THE ROGUE EMPEROR
           </h1>
           
           {/* Subtitle with Horizontal Lines */}
