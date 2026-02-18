@@ -37,7 +37,7 @@ export function Hero() {
               isRevealed ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
             )}
           >
-            THE ROGUE EMPEROR
+            Pragyan Dev
           </h1>
           
           {/* Subtitle with Horizontal Lines */}
