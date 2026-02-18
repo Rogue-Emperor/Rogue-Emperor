@@ -64,7 +64,7 @@ export function Hero() {
             )}
             aria-hidden="true"
           >
-            IMAN GADZHI
+            PRAGYAN DEV
           </span>
 
           <h1
@@ -73,7 +73,7 @@ export function Hero() {
               isRevealed ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
             )}
           >
-            IMAN GADZHI
+            PRAGYAN DEV
           </h1>
           
           <div className={cn(

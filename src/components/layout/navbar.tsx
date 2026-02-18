@@ -36,7 +36,7 @@ export function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-4 md:px-8 h-20 flex justify-between items-center">
         <Link href="/" className="font-headline text-2xl text-primary">
-          SOVEREIGN
+          Pragyan Dev
         </Link>
         <div className="hidden md:flex items-center space-x-8">
           {navLinks.map((link) => (
@@ -60,7 +60,7 @@ export function Navbar() {
             <SheetContent side="right" className="w-[250px] sm:w-[300px]">
               <nav className="flex flex-col items-center justify-center h-full">
                 <Link href="/" onClick={closeMobileMenu} className="font-headline text-3xl text-primary mb-12">
-                  SOVEREIGN
+                  Pragyan Dev
                 </Link>
                 <div className="flex flex-col space-y-8 text-center">
                     {navLinks.map((link) => (
