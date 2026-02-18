@@ -2,28 +2,39 @@
 
 The professional portfolio of Pragyan Dev, featuring architectural design, cinematic effects, and AI-moderated access.
 
-## Commands to push to GitHub (Rogue-Emperor)
+## GitHub Workflow (Rogue-Emperor)
 
-If you encountered a "divergent branches" error, it's because the remote repository has files (like a README or License) that you don't have locally. Run these commands to force your local code to become the remote `main` branch:
+### First Time Setup / Overwriting Remote
+If you have a fresh repo or need to force your local code to be the "main" version on GitHub:
 
 ```bash
-# 1. Initialize (if not already done)
+# 1. Initialize
 git init
 
-# 2. Add files
+# 2. Add and Commit
 git add .
-
-# 3. Commit
 git commit -m "Initial portfolio release"
 
-# 4. Ensure you are on the 'main' branch locally
+# 3. Branch and Remote
 git branch -M main
-
-# 5. Connect to your repo (if not already done)
 git remote add origin https://github.com/Rogue-Emperor/Rogue-Emperor.git
 
-# 6. Force push to overwrite remote 'main' with your local 'main'
+# 4. Force Push (Overwrites remote main)
 git push -u origin main --force
+```
+
+### Pushing Regular Updates
+Once your repository is linked, use these commands for everyday changes:
+
+```bash
+# 1. Stage changes
+git add .
+
+# 2. Commit changes
+git commit -m "Update: [Brief description of what you changed]"
+
+# 3. Push to GitHub
+git push origin main
 ```
 
 ## Tech Stack
