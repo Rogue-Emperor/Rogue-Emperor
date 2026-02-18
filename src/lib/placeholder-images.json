@@ -26,9 +26,9 @@
     },
     {
       "id": "sector-biotech",
-      "description": "A scientist looking at a DNA helix structure, representing biotechnology.",
-      "imageUrl": "https://images.unsplash.com/photo-1738944910306-14cd13a9cc38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkbmElMjBzY2llbmNlfGVufDB8fHx8MTc3MTMwODM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "dna science"
+      "description": "A high-tech, glowing digital city or virtual reality landscape.",
+      "imageUrl": "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2aXJ0dWFsJTIwcmVhbGl0eXxlbnwwfHx8fDE3NzEzMzg3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "virtual reality"
     }
   ]
 }

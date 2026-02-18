@@ -26,10 +26,10 @@ const sectorsData = [
     imageId: 'sector-ai' 
   },
   { 
-    id: 'biotech', 
-    title: 'Biotechnology', 
-    description: 'Advancing human potential through longevity research and genetic optimization, securing the biological foundation of the individual.',
-    projects: ['Aegis Bio-Refinery', 'Chrysalis Genetic Lab', 'Vitality Matrix'],
+    id: 'metaverse', 
+    title: 'Synthetic Realities', 
+    description: 'Architecting high-fidelity digital landscapes and decentralized immersive economies that redefine human presence and interaction.',
+    projects: ['Hyperion Meta-Layer', 'Neural Interface Alpha', 'Virtual Sovereignty Node'],
     imageId: 'sector-biotech' 
   },
   {
