@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useState } from 'react';
@@ -7,7 +6,7 @@ import placeholderData from '@/lib/placeholder-images.json';
 import { Card, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import { ArrowLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 
 const sectorsData = [
   {
@@ -33,11 +32,11 @@ const sectorsData = [
     imageId: 'sector-biotech' 
   },
   {
-    id: 'energy',
-    title: 'Sustainable Energy',
-    description: 'Architecting decentralized power grids and next-generation fusion research to provide energy independence for the modern sovereign.',
-    projects: ['Helios Array', 'Kinetic Grid Zero', 'Thermal Core Delta'],
-    imageId: 'sector-energy',
+    id: 'trading',
+    title: 'Algorithmic Capital',
+    description: 'Engineering high-frequency trading engines and predictive market models that leverage computational superiority for absolute financial sovereignty.',
+    projects: ['Vector Arbitrage Engine', 'Neural Alpha Sentinel', 'Quantum Liquidity Protocol'],
+    imageId: 'sector-trading',
     className: 'md:col-span-2',
   },
 ];

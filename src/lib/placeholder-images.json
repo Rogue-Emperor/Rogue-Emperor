@@ -19,10 +19,10 @@
       "imageHint": "circuit board"
     },
     {
-      "id": "sector-energy",
-      "description": "Wind turbines against a sunset, representing sustainable energy.",
-      "imageUrl": "https://images.unsplash.com/photo-1466629437334-b4f6603563c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3aW5kJTIwdHVyYmluZXxlbnwwfHx8fDE3NzEzMTU1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "wind turbine"
+      "id": "sector-trading",
+      "description": "A dark trading terminal with glowing charts and financial data.",
+      "imageUrl": "https://images.unsplash.com/photo-1611974714658-058f40775d0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdG9jayUyMGNoYXJ0fGVufDB8fHx8MTc3MTMyNzkzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stock chart"
     },
     {
       "id": "sector-biotech",
