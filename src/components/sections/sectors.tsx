@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useState } from 'react';
@@ -27,8 +26,8 @@ const sectorsData = [
   },
   { 
     id: 'metaverse', 
-    title: 'Synthetic Realities', 
-    description: 'Architecting high-fidelity digital landscapes and decentralized immersive economies that redefine human presence and interaction.',
+    title: 'Metaverse and Dynamic Simulation', 
+    description: 'Architecting high-fidelity digital landscapes and decentralized immersive economies that redefine human presence and interaction using advanced game engines.',
     projects: ['Hyperion Meta-Layer', 'Neural Interface Alpha', 'Virtual Sovereignty Node'],
     imageId: 'sector-biotech' 
   },

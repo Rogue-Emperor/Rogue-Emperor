@@ -26,9 +26,9 @@
     },
     {
       "id": "sector-biotech",
-      "description": "A high-fidelity, colorful digital cityscape representing the metaverse.",
+      "description": "A vibrant, creative workspace showing a 3D game development environment.",
       "imageUrl": "https://images.unsplash.com/photo-1626379616459-b2ce1d9decbb?auto=format&fit=crop&q=80&w=1080",
-      "imageHint": "metaverse city"
+      "imageHint": "game development"
     }
   ]
 }
