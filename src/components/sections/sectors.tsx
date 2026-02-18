@@ -14,7 +14,7 @@ const sectorsData = [
     title: 'Aerospace',
     description: 'Re-defining Space software that helps mankind push the boundaries, and achive the extraordinare. Moreoever the broader vision is towards an independent space agency.',
     projects: [
-      { name: 'Aerometry' },
+      { name: 'Aerometry', link: 'https://aerometry.vercel.app/' },
       { name: 'Project: Space Society (Releasing Soon)' }
     ],
     imageId: 'sector-aerospace',
