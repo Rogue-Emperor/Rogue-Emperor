@@ -14,7 +14,10 @@ const sectorsData = [
     id: 'aerospace',
     title: 'Aerospace',
     description: 'Re-defining Space software that helps mankind push the boundaries, and achive the extraordinare. Moreoever the broader vision is towards an independent space agency.',
-    projects: ['Aerometry', 'Project: Space Society (Releasing Soon)'],
+    projects: [
+      { name: 'Aerometry' },
+      { name: 'Project: Space Society (Releasing Soon)' }
+    ],
     imageId: 'sector-aerospace',
     className: 'md:col-span-2',
   },
@@ -22,21 +25,28 @@ const sectorsData = [
     id: 'ai', 
     title: 'Cognitive Technologies', 
     description: 'Building technology that powers the world and beyond... From Trading terminals to Space Softwares. While, also Bringing the World together through Open-source tech community: Initiative.V1',
-    projects: ['Initiative.V1'],
+    projects: [
+      { name: 'Initiative.V1' }
+    ],
     imageId: 'sector-ai' 
   },
   { 
     id: 'metaverse', 
     title: 'Metaverse and Dynamic Simulation', 
     description: 'Connecting the Globe through 3-dimensional experinces built on Roblox and several other game engines.',
-    projects: ['Mr.ouufyi [Roblox Game Dev]', 'Project: GD (Releasing end of March)'],
+    projects: [
+      { name: 'Mr.ouufyi [Roblox Game Dev]', link: 'https://www.roblox.com/users/1665468838/profile' },
+      { name: 'Project: GD (Releasing end of March)' }
+    ],
     imageId: 'sector-biotech' 
   },
   {
     id: 'trading',
     title: 'Algorithmic Finance',
     description: 'Engineering high-frequency trading engines and predictive market models that leverage computational superiority for specialized Quants',
-    projects: ['Project: The Terminal (Releasing Soon)'],
+    projects: [
+      { name: 'Project: The Terminal (Releasing Soon)' }
+    ],
     imageId: 'sector-trading',
     className: 'md:col-span-2',
   },
@@ -153,7 +163,20 @@ export function Sectors() {
                             {activeSector.projects.map((project, idx) => (
                                 <li key={idx} className="flex items-center space-x-4 group/item">
                                     <div className="h-1.5 w-1.5 rounded-full bg-primary transition-all duration-300 group-hover/item:scale-150" />
-                                    <span className="text-lg text-foreground/80 group-hover/item:text-primary transition-colors">{project}</span>
+                                    {project.link ? (
+                                      <a 
+                                        href={project.link} 
+                                        target="_blank" 
+                                        rel="noopener noreferrer" 
+                                        className="text-lg text-foreground/80 hover:text-primary transition-colors decoration-primary/30 underline-offset-4 hover:underline"
+                                      >
+                                        {project.name}
+                                      </a>
+                                    ) : (
+                                      <span className="text-lg text-foreground/80 group-hover/item:text-primary transition-colors">
+                                        {project.name}
+                                      </span>
+                                    )}
                                 </li>
                             ))}
                         </ul>
