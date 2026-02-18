@@ -37,6 +37,14 @@ git commit -m "Update: [Brief description of what you changed]"
 git push origin main
 ```
 
+### Pulling Changes from GitHub
+If you have made changes directly on GitHub (e.g., edited a file in the browser) or are working from a different machine, use this to sync:
+
+```bash
+# Fetch and merge changes from the remote main branch
+git pull origin main
+```
+
 ## Tech Stack
 - **Framework**: Next.js 15 (App Router)
 - **Styling**: Tailwind CSS & ShadCN UI
