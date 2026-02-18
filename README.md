@@ -38,7 +38,7 @@ git push origin main
 ```
 
 ### Pulling Changes from GitHub
-If you have made changes directly on GitHub (e.g., edited a file in the browser) or are working from a different machine, use this to sync:
+If you have made changes directly on GitHub (e.g., edited a file in the browser) or are working from a different machine, use this to sync your local environment:
 
 ```bash
 # Fetch and merge changes from the remote main branch
