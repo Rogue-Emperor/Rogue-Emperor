@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-ceo",
-      "description": "A powerful architectural structure in a dramatic landscape at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1920",
-      "imageHint": "modern architecture"
+      "description": "A tranquil sea under a soft, dramatic sunset sky with rolling clouds.",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1920",
+      "imageHint": "sea sunset"
     },
     {
       "id": "sector-aerospace",

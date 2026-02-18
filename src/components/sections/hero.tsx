@@ -26,7 +26,7 @@ export function Hero() {
           alt={heroImage.description}
           fill
           priority
-          className="object-cover opacity-60 blur-md scale-105"
+          className="object-cover opacity-70 blur-md scale-105"
           sizes="100vw"
         />
       )}
@@ -52,7 +52,7 @@ export function Hero() {
       </div>
 
       {/* Dark Vignette Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60" />
 
       {/* Main Content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4">
