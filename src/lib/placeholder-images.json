@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-ceo",
-      "description": "A vast, dark blue sea meeting a soft, misty sky at the horizon, creating a sense of infinite space.",
-      "imageUrl": "https://images.unsplash.com/photo-1439405326854-014607f694d7?auto=format&fit=crop&q=80&w=1920",
-      "imageHint": "sea horizon infinity"
+      "description": "A vast, calm, dark blue sea meeting a clear sky with very few clouds at the horizon, showing only soft atmospheric light without the sun visible.",
+      "imageUrl": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&q=80&w=1920",
+      "imageHint": "calm sea horizon"
     },
     {
       "id": "sector-aerospace",
