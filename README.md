@@ -1,52 +1,61 @@
-# Sovereign Portfolio
+<img width="1893" height="578" alt="image" src="https://github.com/user-attachments/assets/a01224b9-766b-4ba7-ac54-65f7104493c4" />
+# 🌌 The Rogue Emperor | Innovator & Entrepreneur
 
-The professional portfolio of Pragyan Dev, featuring architectural design, cinematic effects, and AI-moderated access.
+> "Conquering the intersection of the Space Era and Quantum Finance."
 
-## GitHub Workflow (Rogue-Emperor)
+I am a builder of ecosystems and a pioneer of digital frontiers. From architecting open-source communities to mastering game engine physics, my mission is to scale technology beyond Earth's orbit and into the high-frequency world of quantitative systems.
 
-### First Time Setup / Overwriting Remote
-If you have a fresh repo or need to force your local code to be the "main" version on GitHub:
+---
 
+### 🏛️ The Empire So Far
+
+* **Co-Founder @ [Initiative.v1](https://initiative-v1.vercel.app/)**: Leading an open-source tech community dedicated to radical innovation and collaborative building.
+* **Game Architect**: Veteran of the **Roblox** ecosystem and various high-fidelity game engines. I specialize in immersive mechanics and scalable virtual environments.
+* **Visionary**: Currently engineering the bridge between **Space-Tech** (Logistics/Exploration) and **Quant Finance** (Algorithmic Trading/Software).
+
+---
+
+### 🛠️ The Arsenal
+
+| Sector | Technologies |
+| :--- | :--- |
+| **Game Engines** | Luau (Roblox), Unity (C#), Unreal Engine (C++), Godot |
+| **Quant & Logic** | Python (NumPy/Pandas),  Mathematical Modeling |
+| **Leadership** | Community Architecture, Open-Source Governance, Strategy, Analysis|
+| **The Future** | Orbital Mechanics, High-Frequency Trading Systems, AGI |
+
+---
+
+### 🚀 Git Mastery: Command Center
+
+To ensure your GitHub repository stays perfectly in sync with this environment:
+
+#### 1. Push Local Changes to GitHub
+Use this when you've finished making changes here and want them to appear on your live GitHub repo.
 ```bash
-# 1. Initialize
-git init
-
-# 2. Add and Commit
 git add .
-git commit -m "Initial portfolio release"
-
-# 3. Branch and Remote
-git branch -M main
-git remote add origin https://github.com/Rogue-Emperor/Rogue-Emperor.git
-
-# 4. Force Push (Overwrites remote main)
-git push -u origin main --force
-```
-
-### Pushing Regular Updates
-Once your repository is linked, use these commands for everyday changes:
-
-```bash
-# 1. Stage changes
-git add .
-
-# 2. Commit changes
-git commit -m "Update: [Brief description of what you changed]"
-
-# 3. Push to GitHub
+git commit -m "Describe your changes"
 git push origin main
 ```
 
-### Pulling Changes from GitHub
-If you have made changes directly on GitHub (e.g., edited a file in the browser) or are working from a different machine, use this to sync your local environment:
-
+#### 2. Pull Changes from GitHub
+Use this if you edited the README or any other file directly on the GitHub website and want those changes here.
 ```bash
-# Fetch and merge changes from the remote main branch
 git pull origin main
 ```
 
-## Tech Stack
-- **Framework**: Next.js 15 (App Router)
-- **Styling**: Tailwind CSS & ShadCN UI
-- **Typography**: Libre Bodoni (Headline) & Inter (Body)
-- **AI**: Genkit (Google Gemini 2.5 Flash)
+#### 3. Overwrite GitHub with Local (Force Push)
+Use this if GitHub is out of sync or has "divergent branches" and you want to **force** GitHub to match exactly what you see here. **Warning: This overwrites GitHub.**
+```bash
+git push -u origin main --force
+```
+
+---
+
+### 📡 Establish Contact
+
+* **Socials:** @The.Rogue.Emperor
+* **Email:** [pragyan.dev@outlook.com]
+* **Initiative.v1:** [https://initiative-v1.vercel.app/]
+
+*"The future isn't inherited; it's conquered."*
