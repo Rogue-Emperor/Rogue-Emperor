@@ -65,6 +65,7 @@ const SectorCard = ({
       )}
     >
       <div className="absolute inset-0 z-10 bg-black/40 transition-colors group-hover:bg-black/20" />
+      <div className="absolute inset-0 z-0 bg-muted animate-pulse" />
       {image && (
         <Image
           src={image.imageUrl}
@@ -160,14 +161,15 @@ export function Sectors() {
                 </div>
 
                 <div className="relative aspect-square md:aspect-[4/5] rounded-2xl overflow-hidden border border-border/50 bg-card/30">
+                    <div className="absolute inset-0 z-0 bg-muted animate-pulse" />
                     <Image 
                         src={placeholderData.placeholderImages.find(p => p.id === activeSector.imageId)?.imageUrl || ''}
                         alt={activeSector.title}
                         fill
-                        className="object-cover transition-all duration-1000"
+                        className="relative z-10 object-cover transition-all duration-1000"
                         priority
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-40" />
+                    <div className="absolute inset-0 z-20 bg-gradient-to-t from-background via-transparent to-transparent opacity-40" />
                 </div>
             </div>
           </div>
