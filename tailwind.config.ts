@@ -11,7 +11,7 @@ export default {
     extend: {
       fontFamily: {
         body: ['Inter', 'sans-serif'],
-        headline: ['Belleza', 'serif'],
+        headline: ['"Libre Bodoni"', '"Bodoni 72"', 'serif'],
         code: ['monospace'],
       },
       colors: {
