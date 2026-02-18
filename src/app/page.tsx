@@ -2,6 +2,7 @@ import { Counter } from '@/components/sections/counter';
 import { Hero } from '@/components/sections/hero';
 import { PrivateOffice } from '@/components/sections/private-office';
 import { Sectors } from '@/components/sections/sectors';
+import { About } from '@/components/sections/about';
 import { ScrollFadeIn } from '@/components/scroll-fade-in';
 import { Navbar } from '@/components/layout/navbar';
 
@@ -17,9 +18,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <div className="relative z-10 bg-background">
-        {' '}
-        {/* To ensure content is on top of hero gradient */}
         <div className="space-y-24 md:space-y-32 py-24 md:py-32">
+          <SectionWrapper>
+            <About />
+          </SectionWrapper>
           <div id="ventures" className="scroll-mt-20">
             <SectionWrapper>
               <Counter />
