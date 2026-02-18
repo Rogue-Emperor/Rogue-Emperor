@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState } from 'react';
@@ -19,7 +20,7 @@ const sectorsData = [
   },
   { 
     id: 'ai', 
-    title: 'Artificial Intelligence', 
+    title: 'Cognitive Architectures', 
     description: 'Developing sovereign intelligence systems that prioritize privacy and individual autonomy over centralized data harvesting.',
     projects: ['Gaia Engine', 'Neural Sentinel', 'Cognitive Sovereignty Protocol'],
     imageId: 'sector-ai' 
