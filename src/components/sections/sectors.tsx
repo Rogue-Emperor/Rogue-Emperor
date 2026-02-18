@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState } from 'react';
@@ -59,17 +60,17 @@ const SectorCard = ({
     <Card
       onClick={onClick}
       className={cn(
-        'group relative h-full cursor-pointer overflow-hidden rounded-xl border-border/50 bg-transparent transition-all duration-500 hover:scale-[1.01] hover:border-primary/50',
+        'group relative h-full cursor-pointer overflow-hidden rounded-xl border-border/50 bg-card/20 transition-all duration-500 hover:scale-[1.01] hover:border-primary/50',
         className
       )}
     >
-      <div className="absolute inset-0 z-10 bg-black/50 transition-colors group-hover:bg-black/30" />
+      <div className="absolute inset-0 z-10 bg-black/60 transition-colors group-hover:bg-black/40" />
       {image && (
         <Image
           src={image.imageUrl}
           alt={image.description}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-110"
+          className="object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
           data-ai-hint={image.imageHint}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
@@ -158,12 +159,13 @@ export function Sectors() {
                     </div>
                 </div>
 
-                <div className="relative aspect-square md:aspect-[4/5] rounded-2xl overflow-hidden border border-border/50">
+                <div className="relative aspect-square md:aspect-[4/5] rounded-2xl overflow-hidden border border-border/50 bg-card/30">
                     <Image 
                         src={placeholderData.placeholderImages.find(p => p.id === activeSector.imageId)?.imageUrl || ''}
                         alt={activeSector.title}
                         fill
                         className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                        priority
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60" />
                 </div>
