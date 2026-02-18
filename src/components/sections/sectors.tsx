@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useState } from 'react';
@@ -26,7 +25,7 @@ const sectorsData = [
     title: 'Cognitive Technologies', 
     description: 'Building technology that powers the world and beyond... From Trading terminals to Space Softwares. While, also Bringing the World together through Open-source tech community: Initiative.V1',
     projects: [
-      { name: 'Initiative.V1' }
+      { name: 'Initiative.V1', link: 'https://initiative-v1.vercel.app/' }
     ],
     imageId: 'sector-ai' 
   },
