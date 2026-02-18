@@ -26,9 +26,9 @@
     },
     {
       "id": "sector-biotech",
-      "description": "A vibrant, creative workspace showing a 3D game development environment.",
-      "imageUrl": "https://images.unsplash.com/photo-1626379616459-b2ce1d9decbb?auto=format&fit=crop&q=80&w=1080",
-      "imageHint": "game development"
+      "description": "A professional game development workspace showing a complex 3D engine interface.",
+      "imageUrl": "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?auto=format&fit=crop&q=80&w=1080",
+      "imageHint": "game engine"
     }
   ]
 }
