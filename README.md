@@ -64,6 +64,13 @@ git push origin --delete <branch-name>
 
 ---
 
+### 🎨 Customization Notes
+
+#### Favicon
+To update your favicon, place an `icon.png` file inside the `public/` directory. The application is already configured to look for this file as your primary site icon.
+
+---
+
 ### 📡 Establish Contact
 
 * **Socials:** @The.Rogue.Emperor

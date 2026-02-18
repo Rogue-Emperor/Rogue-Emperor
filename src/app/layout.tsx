@@ -5,6 +5,9 @@ import { Toaster } from '@/components/ui/toaster';
 export const metadata: Metadata = {
   title: 'Sovereovereign Portfolio',
   description: 'The portfolio of a sovereign individual.',
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({
