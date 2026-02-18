@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -25,7 +26,7 @@ export function Hero() {
           alt={heroImage.description}
           fill
           priority
-          className="object-cover opacity-60 grayscale"
+          className="object-cover opacity-60"
           sizes="100vw"
         />
       )}

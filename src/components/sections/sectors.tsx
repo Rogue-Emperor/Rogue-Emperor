@@ -64,13 +64,13 @@ const SectorCard = ({
         className
       )}
     >
-      <div className="absolute inset-0 z-10 bg-black/60 transition-colors group-hover:bg-black/40" />
+      <div className="absolute inset-0 z-10 bg-black/40 transition-colors group-hover:bg-black/20" />
       {image && (
         <Image
           src={image.imageUrl}
           alt={image.description}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+          className="object-cover transition-transform duration-700 group-hover:scale-110"
           data-ai-hint={image.imageHint}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
@@ -80,7 +80,7 @@ const SectorCard = ({
             <p className="text-xs uppercase tracking-[0.3em] text-primary font-bold opacity-0 -translate-x-4 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0">
                 Explore Domain
             </p>
-            <CardTitle className="font-headline text-3xl text-foreground md:text-4xl">
+            <CardTitle className="font-headline text-3xl text-foreground md:text-4xl drop-shadow-md">
             {title}
             </CardTitle>
         </div>
@@ -164,10 +164,10 @@ export function Sectors() {
                         src={placeholderData.placeholderImages.find(p => p.id === activeSector.imageId)?.imageUrl || ''}
                         alt={activeSector.title}
                         fill
-                        className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                        className="object-cover transition-all duration-1000"
                         priority
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-40" />
                 </div>
             </div>
           </div>
