@@ -47,7 +47,7 @@ export function Hero() {
           )}>
             <div className="h-px w-16 md:w-24 bg-primary/40" />
             <p className="font-body text-[10px] md:text-xs uppercase tracking-[0.8em] text-foreground/70 font-bold whitespace-nowrap">
-              Architect of the Future
+              Empowering the Blueprint that leads to the future.
             </p>
             <div className="h-px w-16 md:w-24 bg-primary/40" />
           </div>

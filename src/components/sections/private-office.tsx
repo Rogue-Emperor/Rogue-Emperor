@@ -10,9 +10,9 @@ export function PrivateOffice() {
         strategic value. Submit your purpose for review.
       </p>
       <Button asChild size="lg" className="mt-12">
-        <a href="mailto:contact@sovereign.dev">
+        <a href="mailto:pragyan.dev@outlook.com">
           <Mail className="mr-2 h-5 w-5" />
-          contact@sovereign.dev
+          pragyan.dev@outlook.com
         </a>
       </Button>
     </section>

@@ -72,9 +72,9 @@ export function Counter() {
     <section className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 gap-16 sm:grid-cols-3">
-          <AnimatedCounter end={23} label="Active Ventures" />
-          <AnimatedCounter end={5} label="Global Impact (Continents)" />
-          <AnimatedCounter end={15} label="Years of Disruption" />
+          <AnimatedCounter end={3} label="Active Ventures" />
+          <AnimatedCounter end={6} label="Years of disruption" />
+          <AnimatedCounter end={10} label="Blueprints turning into reality" />
         </div>
       </div>
     </section>

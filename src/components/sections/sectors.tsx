@@ -13,30 +13,30 @@ const sectorsData = [
   {
     id: 'aerospace',
     title: 'Aerospace',
-    description: 'Pioneering orbital infrastructure and decentralized satellite networks to ensure global connectivity independent of terrestrial constraints.',
-    projects: ['StarLink Strategic Integration', 'Orbital Shield Alpha', 'Exo-Atmospheric Logistics'],
+    description: 'Re-defining Space software that helps mankind push the boundaries, and achive the extraordinare. Moreoever the broader vision is towards an independent space agency.',
+    projects: ['Aerometry', 'Project: Space Society (Releasing Soon)'],
     imageId: 'sector-aerospace',
     className: 'md:col-span-2',
   },
   { 
     id: 'ai', 
     title: 'Cognitive Technologies', 
-    description: 'Developing sovereign intelligence systems and open-source architectures that prioritize privacy and individual autonomy over centralized data harvesting.',
-    projects: ['Gaia Engine', 'Neural Sentinel', 'Cognitive Sovereignty Protocol'],
+    description: 'Building technology that powers the world and beyond... From Trading terminals to Space Softwares. While, also Bringing the World together through Open-source tech community: Initiative.V1',
+    projects: ['Initiative.V1'],
     imageId: 'sector-ai' 
   },
   { 
     id: 'metaverse', 
     title: 'Metaverse and Dynamic Simulation', 
-    description: 'Architecting high-fidelity digital landscapes and decentralized immersive economies that redefine human presence and interaction using advanced game engines.',
-    projects: ['Hyperion Meta-Layer', 'Neural Interface Alpha', 'Virtual Sovereignty Node'],
+    description: 'Connecting the Globe through 3-dimensional experinces built on Roblox and several other game engines.',
+    projects: ['Mr.ouufyi [Roblox Game Dev]', 'Project: GD (Releasing end of March)'],
     imageId: 'sector-biotech' 
   },
   {
     id: 'trading',
     title: 'Algorithmic Finance',
-    description: 'Engineering high-frequency trading engines and predictive market models that leverage computational superiority for absolute financial sovereignty.',
-    projects: ['Vector Arbitrage Engine', 'Neural Alpha Sentinel', 'Quantum Liquidity Protocol'],
+    description: 'Engineering high-frequency trading engines and predictive market models that leverage computational superiority for specialized Quants',
+    projects: ['Project: The Terminal (Releasing Soon)'],
     imageId: 'sector-trading',
     className: 'md:col-span-2',
   },
@@ -100,7 +100,7 @@ export function Sectors() {
       <div className="mb-16 text-center">
         <h2 className="font-headline text-5xl md:text-7xl">Sector Dominance</h2>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-          Pioneering advancements across critical industries that redefine the
+          Expanding across several diversified areas that redefines the
           boundaries of possibility.
         </p>
       </div>
@@ -140,7 +140,7 @@ export function Sectors() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-card/10 p-8 md:p-12 rounded-3xl border border-border/30 backdrop-blur-sm">
                 <div className="space-y-8">
                     <div className="space-y-4">
-                        <span className="text-xs uppercase tracking-[0.5em] text-primary font-bold">Domain Expertise</span>
+                        <span className="text-xs uppercase tracking-[0.5em] text-primary font-bold">About the Sector:</span>
                         <h3 className="font-headline text-5xl md:text-6xl text-foreground">{activeSector.title}</h3>
                         <p className="text-xl text-muted-foreground leading-relaxed">
                             {activeSector.description}
