@@ -14,9 +14,9 @@
     },
     {
       "id": "sector-ai",
-      "description": "A vibrant, glowing neural network representation of AI.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1080",
-      "imageHint": "artificial intelligence"
+      "description": "A vibrant representation of software development and open source technology communities.",
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1080",
+      "imageHint": "software code"
     },
     {
       "id": "sector-trading",
