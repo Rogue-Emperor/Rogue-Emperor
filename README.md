@@ -24,57 +24,21 @@ I am a builder of ecosystems and a pioneer of digital frontiers. From architecti
 | **Leadership** | Community Architecture, Open-Source Governance, Strategy, Analysis|
 | **The Future** | Orbital Mechanics, High-Frequency Trading Systems, AGI |
 
----
-
-### 🚀 Git Mastery: Command Center
-
-To ensure your GitHub repository stays perfectly in sync with this environment:
-
-#### 1. Push Local Changes to GitHub
-Use this when you've finished making changes here and want them to appear on your live GitHub repo.
-```bash
-git add .
-git commit -m "Describe your changes"
-git push origin main
-```
-
-#### 2. Pull Changes from GitHub
-Use this if you edited the README or any other file directly on the GitHub website and want those changes here.
-```bash
-git pull origin main
-```
-
-#### 3. Overwrite GitHub with Local (Force Push)
-Use this if GitHub is out of sync or has "divergent branches" and you want to **force** GitHub to match exactly what you see here. **Warning: This overwrites GitHub.**
-```bash
-git push -u origin main --force
-```
-
-#### 4. Delete All Other Local Branches
-If you have created other branches locally and want to clean them up, keeping only `main`:
-```bash
-git branch | grep -v "main" | xargs git branch -D
-```
-
-#### 5. Delete Other Remote Branches (On GitHub)
-To see all remote branches: `git branch -r`. To delete a specific branch on GitHub:
-```bash
-git push origin --delete <branch-name>
-```
 
 ---
 
-### 🎨 Customization Notes
+### 🚀 Current Trajectory
 
-#### Favicon & Static Assets
-To update your favicon, place an `icon.png` file inside the `public/` directory (located at the root of the project). The application is already configured to look for this file as your primary site icon in `src/app/layout.tsx`.
+- 🛰️ **Space Era:** Developing software frameworks for the next generation of celestial logistics.
+- 📉 **Quant Finance:** Building low-latency tools for market analysis and automated execution.
+- 🌐 **Initiative.v1:** Scaling our community to become the premier hub for rogue innovators.
 
 ---
 
 ### 📡 Establish Contact
 
 * **Socials:** @The.Rogue.Emperor
-* **Email:** [pragyan.dev@outlook.com](mailto:pragyan.dev@outlook.com)
-* **Initiative.v1:** [https://initiative-v1.vercel.app/](https://initiative-v1.vercel.app/)
+* **Email:** [Pragyan.dev@outlook.com]
+* **Initiative.v1:** [https://initiative-v1.vercel.app/]
 
 *"The future isn't inherited; it's conquered."*
