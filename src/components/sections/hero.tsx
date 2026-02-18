@@ -26,7 +26,7 @@ export function Hero() {
           alt={heroImage.description}
           fill
           priority
-          className="object-cover opacity-60"
+          className="object-cover opacity-60 blur-md scale-105"
           sizes="100vw"
         />
       )}
