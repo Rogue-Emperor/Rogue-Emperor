@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState } from 'react';
@@ -33,7 +34,7 @@ const sectorsData = [
   },
   {
     id: 'trading',
-    title: 'Algorithmic Capital',
+    title: 'Algorithmic Finance',
     description: 'Engineering high-frequency trading engines and predictive market models that leverage computational superiority for absolute financial sovereignty.',
     projects: ['Vector Arbitrage Engine', 'Neural Alpha Sentinel', 'Quantum Liquidity Protocol'],
     imageId: 'sector-trading',

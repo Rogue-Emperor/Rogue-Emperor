@@ -20,9 +20,9 @@
     },
     {
       "id": "sector-trading",
-      "description": "Dynamic, colorful financial market charts on multiple screens.",
-      "imageUrl": "https://images.unsplash.com/photo-1611974714658-058f40775d0b?auto=format&fit=crop&q=80&w=1080",
-      "imageHint": "trading charts"
+      "description": "A professional financial terminal interface with complex charts and market data feeds.",
+      "imageUrl": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=1080",
+      "imageHint": "bloomberg terminal"
     },
     {
       "id": "sector-biotech",
