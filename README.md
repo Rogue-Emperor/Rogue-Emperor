@@ -50,12 +50,24 @@ Use this if GitHub is out of sync or has "divergent branches" and you want to **
 git push -u origin main --force
 ```
 
+#### 4. Delete All Other Local Branches
+If you have created other branches locally and want to clean them up, keeping only `main`:
+```bash
+git branch | grep -v "main" | xargs git branch -D
+```
+
+#### 5. Delete Other Remote Branches (On GitHub)
+To see all remote branches: `git branch -r`. To delete a specific branch on GitHub:
+```bash
+git push origin --delete <branch-name>
+```
+
 ---
 
 ### 📡 Establish Contact
 
 * **Socials:** @The.Rogue.Emperor
-* **Email:** [pragyan.dev@outlook.com]
-* **Initiative.v1:** [https://initiative-v1.vercel.app/]
+* **Email:** [pragyan.dev@outlook.com](mailto:pragyan.dev@outlook.com)
+* **Initiative.v1:** [https://initiative-v1.vercel.app/](https://initiative-v1.vercel.app/)
 
 *"The future isn't inherited; it's conquered."*
