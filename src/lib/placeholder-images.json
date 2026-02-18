@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-ceo",
-      "description": "A tranquil sea under a soft, dramatic sunset sky with rolling clouds.",
-      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1920",
-      "imageHint": "sea sunset"
+      "description": "A vast, dark blue sea meeting a soft, misty sky at the horizon, creating a sense of infinite space.",
+      "imageUrl": "https://images.unsplash.com/photo-1439405326854-014607f694d7?auto=format&fit=crop&q=80&w=1920",
+      "imageHint": "sea horizon infinity"
     },
     {
       "id": "sector-aerospace",
