@@ -4,17 +4,23 @@ The professional portfolio of Pragyan Dev, featuring architectural design, cinem
 
 ## Commands to push to GitHub
 
-Run these commands in your terminal to push this project to your `Rogue-Emperor` repository. 
-
-**Note:** If you already ran `git init`, you can skip the first line.
+If you encountered a "divergent branches" error, it's because the remote repository has files (like a README or License) that you don't have locally. Run these commands to synchronize and push:
 
 ```bash
-git init
-git add .
-git commit -m "Initial commit of Sovereign Portfolio"
-git branch -M main
-git remote add origin https://github.com/Rogue-Emperor/Rogue-Emperor.git
+# 1. Reconcile the histories
+git pull origin main --allow-unrelated-histories
+
+# 2. If a text editor opens for a merge message, save and close it (:wq in vim)
+
+# 3. Push your code
 git push -u origin main
+```
+
+**Alternative (Force Push):**
+If the repository on GitHub is empty or you don't care about its current contents, you can simply overwrite it:
+
+```bash
+git push -u origin main --force
 ```
 
 ## Tech Stack
